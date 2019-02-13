@@ -1,7 +1,7 @@
 {
 	"name": "npm-echo-demo",
-	"version": "1.0.3",
-	"description": "test!",
+	"version": "1.0.4",
+	"description": "test.",
 	"main": "./lib/echo.js",
 	"bin": {
 		"node-echo": "./bin/node-echo"
@@ -13,5 +13,10 @@
 	"license": "ISC",
 	"dependencies": {
 		"argv": "0.0.2"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wujingacross/npm-echo-demo"
+	},
+	"homepage": "https://github.com/wujingacross/npm-echo-demo",
 }
