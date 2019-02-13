@@ -1,0 +1,17 @@
+{
+	"name": "npm-echo-demo",
+	"version": "1.0.3",
+	"description": "test!",
+	"main": "./lib/echo.js",
+	"bin": {
+		"node-echo": "./bin/node-echo"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "wujing",
+	"license": "ISC",
+	"dependencies": {
+		"argv": "0.0.2"
+	}
+}
