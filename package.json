@@ -2,7 +2,7 @@
 	"name": "npm-echo-demo",
 	"version": "1.0.5",
 	"description": "test.",
-	"main": "./lib/echo.js",
+	"main": "./src/echo.js",
 	"bin": {
 		"node-echo": "./bin/node-echo"
 	},

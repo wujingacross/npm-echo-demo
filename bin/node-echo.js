@@ -1,7 +1,7 @@
  #! /usr/bin/env node
 
  var argv = require('argv');
- var echo = require('../lib/echo');
+ var echo = require('../src/echo');
 
  var args = argv.run();
 
