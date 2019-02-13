@@ -1,8 +1,8 @@
- #! /usr/bin/env node
+#! /usr/bin/env node
 
- var argv = require('argv');
- var echo = require('../src/echo');
+var argv = require('argv');
+var echo = require('../src/echo');
 
- var args = argv.run();
+var args = argv.run();
 
- console.log('-----------', args.targets.join(' '));
+console.log('-----------', echo(args.targets.join(' ')));
